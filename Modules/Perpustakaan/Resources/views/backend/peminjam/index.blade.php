@@ -21,7 +21,7 @@
             </div>
         </div>
     @endif
-<div class="content-wrapper container-xxl p-0">
+
     <div class="content-header row">
         <div class="content-header-left col-md-9 col-12 mb-2">
             <div class="row breadcrumbs-top">
@@ -39,7 +39,7 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header border-bottom">
-                                    <h4 class="card-title">Data Peminjam <a href=" {{route('peminjam.create')}} " class="btn btn-primary">Tambah</a></h4>
+                                    <h4 class="card-title"><a href=" {{route('peminjam.create')}} " class="btn btn-primary">Tambah</a></h4>
                                     <div class="dt-action-buttons text-right">
                                       <a href=" {{url('perpus/history-peminjam')}} " class="btn btn-dark">History Peminjam</a>
                                     </div>
@@ -84,7 +84,6 @@
                 </section>
             </div>
         </div>
-    </div>
     @include('perpustakaan::backend.peminjam.update')
 </div>
 @endsection

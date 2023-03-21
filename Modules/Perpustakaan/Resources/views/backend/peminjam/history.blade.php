@@ -21,16 +21,7 @@
             </div>
         </div>
     @endif
-<div class="content-wrapper container-xxl p-0">
-    <div class="content-header row">
-        <div class="content-header-left col-md-9 col-12 mb-2">
-            <div class="row breadcrumbs-top">
-                <div class="col-12">
-                    <h2> History Data Peminjam</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div class="content-body">
         <div class="row">
             <div class="col-12">
@@ -39,7 +30,16 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header border-bottom">
-                                    <h4 class="card-title">History Data Peminjam <a href=" {{route('peminjam.create')}} " class="btn btn-primary">Tambah</a></h4>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h4 class="card-title">History Data Peminjam</h4>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <h4 class="card-title">
+                                                <a href=" {{route('peminjam.create')}} " class="btn btn-primary">Tambah</a>
+                                            </h4>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-datatable">
                                     <table class="dt-responsive table">
@@ -78,5 +78,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection

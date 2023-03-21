@@ -21,7 +21,7 @@
             </div>
         </div>
     @endif
-<div class="content-wrapper container-xxl p-0">
+
     <div class="content-header row">
         <div class="content-header-left col-md-9 col-12 mb-2">
             <div class="row breadcrumbs-top">
@@ -39,7 +39,8 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header border-bottom">
-                                    <h4 class="card-title">Data Member <button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="false" data-target="#addMember">Tambah</h4>
+                                    <h4 class="card-title">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="false" data-target="#addMember">Tambah</h4>
                                 </div>
                                 <div class="card-datatable">
                                     <table class="dt-responsive table">
@@ -115,7 +116,6 @@
         </div>
       </div>
     </div>
-</div>
 @endsection
 @section('scripts')
     <script type="text/javascript">

@@ -21,8 +21,8 @@ class MemberController extends Controller
      */
     public function index()
     {
-      $user = User::doesnthave('member')->where('role','Murid')->where('status','Aktif')->get();
-      $member = Member::all();
+      $user     = User::doesnthave('member')->where('role','Murid')->where('status','Aktif')->get();
+      $member   = Member::all();
       return view('perpustakaan::backend.member.index', compact('user','member'));
     }
 

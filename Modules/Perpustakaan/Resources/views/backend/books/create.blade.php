@@ -5,16 +5,6 @@
 @endsection
 
 @section('content')
-<div class="content-wrapper container-xxl p-0">
-    <div class="content-header row">
-        <div class="content-header-left col-md-9 col-12 mb-2">
-            <div class="row breadcrumbs-top">
-                <div class="col-12">
-                    <h2> Buku</h2>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="content-body">
         <div class="row">
             <div class="col-12">
@@ -157,5 +147,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection
