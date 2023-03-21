@@ -8,6 +8,9 @@
     <div class="content-body">
         <!-- START PAGE CONTENT-->
         <div class="page-content fade-in-up">
+            <div class="alert alert-secondary">
+                <h5>Selamat datang, {{ Auth()->user()->name }}</h5>
+            </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="ibox bg-success color-white widget-stat">
@@ -77,30 +80,10 @@
                 <div class="col-lg-4">
                     <div class="ibox">
                         <div class="ibox-head">
-                            <div class="ibox-title">Statistics</div>
+                            <div class="ibox-title">Events</div>
                         </div>
                         <div class="ibox-body">
-                            <div class="row align-items-center">
-                                <div class="col-md-6">
-                                    <canvas id="doughnut_chart" style="height:160px;"></canvas>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="m-b-20 text-success"><i class="fa fa-circle-o m-r-10"></i>Desktop 52%</div>
-                                    <div class="m-b-20 text-info"><i class="fa fa-circle-o m-r-10"></i>Tablet 27%</div>
-                                    <div class="m-b-20 text-warning"><i class="fa fa-circle-o m-r-10"></i>Mobile 21%</div>
-                                </div>
-                            </div>
-                            <ul class="list-group list-group-divider list-group-full">
-                                <li class="list-group-item">Chrome
-                                    <span class="float-right text-success"><i class="fa fa-caret-up"></i> 24%</span>
-                                </li>
-                                <li class="list-group-item">Firefox
-                                    <span class="float-right text-success"><i class="fa fa-caret-up"></i> 12%</span>
-                                </li>
-                                <li class="list-group-item">Opera
-                                    <span class="float-right text-danger"><i class="fa fa-caret-down"></i> 4%</span>
-                                </li>
-                            </ul>
+                           {{-- Update on 21/03/2023 by : Iconmedia Team --}}
                         </div>
                     </div>
                 </div>

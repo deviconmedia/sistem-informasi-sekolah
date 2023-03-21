@@ -31,6 +31,8 @@ Catatan pengembangan aplikasi
     - Konfigurasi Dashboard
     - Konfirgurasi Menu
     - Konfigurasi Halaman per Menu
+* 21/03/2023 - Modul Pengajar
+    - Konfigurasi tampilan Dashboard
 
 ## License
 
