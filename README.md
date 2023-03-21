@@ -19,11 +19,18 @@ MySchool adalah aplikasi manajemen sekolah berbasis website yang di bangun dan d
 
 ## Penggunaan
 * Login sebagai Admin email: kepsek@sch.id & pw: Bismillah
-* Login sebagai PPDB, Perpustakaan, Staf, Pengajar semua dengan password 12345678
+* Login sebagai PPDB, Perpustakaan, Staf, Pengajar dengan password 12345678
 
 ## Package
 - [IndoBank](https://github.com/andes2912/indobank) package Laravel untuk menyimpan data Nama Bank yang ada di Indonesia
 
+## Log Update
+
+Catatan pengembangan aplikasi
+* 21/03/2023 - Modul Perpustakaan
+    - Konfigurasi Dashboard
+    - Konfirgurasi Menu
+    - Konfigurasi Halaman per Menu
 
 ## License
 
